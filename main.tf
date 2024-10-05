@@ -7,8 +7,3 @@ terraform {
     #  encrypt        = true
   }
 }
-
-resource "aws_s3_bucket" "my_bucket" {
-   bucket = "createdbyterraform2325" # Change to a unique name
-   acl    = "private"
-}
