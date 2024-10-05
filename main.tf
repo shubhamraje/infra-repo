@@ -9,6 +9,6 @@ terraform {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "createdbyterraform" # Change to a unique name
+  bucket = "createdbyterraform2325" # Change to a unique name
   acl    = "private"
 }
