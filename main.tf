@@ -13,7 +13,7 @@ resource "aws_s3_bucket" "my_bucket" {
    acl    = "private"
 }
 
-resource "aws_s3_bucket" "my_bucket" {
+resource "aws_s3_bucket" "my_bucket2" {
    bucket = "createdbyterraform23252325" # Change to a unique name
    acl    = "private"
 }
